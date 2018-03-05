@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  /*background-color: #2112f1;*/
+  font-family: Skia;
+  background-image: url("https://32gfgp1gm6bj459xa11b45hp-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/insta-1.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+label {
+  font-size: 19px;
+  color: white;
+}
+#login {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 500px;
+  height: 460px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  /*background-color: #f4f5ff;*/
+  background-color: rgba(0, 0, 0, 0.010);
+  padding: 5px;
+  
+}
+#blue {
+  align-content: center;
+}
+.title {
+  text-align: center;
+  font-size: 45px;
+  background-color: #1af8ff;
+  margin-bottom: 30px;
+  color: #f4f5ff;
+}
+
+input {
+  width: 500px;
+  height: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  height: 50px;
+  background-color: #1af8ff;
+  border: 2px solid #1af8ff;
+  color: white;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  position: absolute;
+  top: 330px;
+  left: 1px;
+}
+input[type="submit"]:hover {
+  background-color: white;
+  color: #13fcff;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+#header {
+  width: 100%;
+  height: 60px;
+  background-color: #13fcff;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  margin-bottom: 15px;
+}
+.button {
+  float: right;
+  height: 66px;
+  width: 110px;
+  line-height: 56px;
+  color: white;
+}
+.button:hover {
+  color: #cfcfcf;
+  cursor: pointer;
+}
+.footer {
+  position: absolute;
+  bottom: 0px;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  background-color: #13fcff;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  padding: 5px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+h4 {
+  color: white;
+}
