@@ -21,7 +21,7 @@ label {
   margin: auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-  /*background-color: #f4f5ff;*/
+  /* background-color: #f4f5ff; */
   background-color: rgba(0, 0, 0, 0.010);
   padding: 5px;
   
@@ -61,7 +61,7 @@ input[type="submit"]:hover {
   background-color: white;
   color: #13fcff;
   cursor: pointer;
-  -webkit-transition-duration: 0.4s; /* Safari */
+  -webkit-transition-duration: 0.4s; 
   transition-duration: 0.4s;
 }
 #header {
