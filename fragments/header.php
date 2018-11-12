@@ -22,6 +22,11 @@
     <span>
       Views
     </snap>
+    </div>
+  <div class="button" onclick="location.href='socialshare.html'">
+    <span>
+      Social
+    </snap>
   </div>
   <?php } ?>
 </div>

@@ -1,6 +1,6 @@
 .modal-header {
     padding: 2px 16px;
-    background-color: #13fcff;
+    background-color: #0a82f3f1;
     color: white;
 }
 
@@ -68,7 +68,7 @@
 .button-send {
   width: 80px;
   height: 40px;
-  background-color: #13fcff;
+  background-color: #0a82f3f1;
   border: 2px solid #f4f5ff;
   color: white;
   margin-left: auto;

@@ -3,7 +3,6 @@ session_start();
 
 include_once '../functions/signup.php';
 
-// retreive values
 $mail = $_POST['email'];
 $username = $_POST['username'];
 $password = $_POST['password'];

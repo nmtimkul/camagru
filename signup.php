@@ -27,7 +27,7 @@ session_start();
             echo $_SESSION['error'];
             $_SESSION['error'] = null;
             if (isset($_SESSION['signup_success'])) {
-              echo "Signup success please check your mail box";
+              echo '<span style="color:#FFFFFF;">Signup successful please check your mail box</span>';
               $_SESSION['signup_success'] = null;
             }
             ?>

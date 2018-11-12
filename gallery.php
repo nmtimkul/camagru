@@ -58,7 +58,7 @@ $montages = get_all_montage();
       </div>
 		</div>
         <?php } else { ?>
-          You need to connect to use the gallery
+          <span style="color:#FFFFFF;">You need to connect to use the gallery</span>
         <?php } ?>
       </div>
     <?php include('fragments/footer.php') ?>

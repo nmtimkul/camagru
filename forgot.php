@@ -24,7 +24,7 @@ session_start();
       echo $_SESSION['error'];
       $_SESSION['error'] = null;
       if (isset($_SESSION['forgot_success'])) {
-        echo "An email has been sent to your email address";
+        echo '<span style="color:#FFFFFF;">An email with your new password has been sent to your email address</span>';
         $_SESSION['forgot_success'] = null;
       }
       ?>

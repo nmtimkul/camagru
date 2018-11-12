@@ -13,14 +13,15 @@ include_once './functions/verify.php';
     <?php include('fragments/header.php') ?>
     <?php include('fragments/footer.php') ?>
     <div id="login">
-    <div class="title">VERIFY</div>
+    <div class="title">VERIFIED</div>
     <?php if (verify($_GET["token"]) == 0) { ?>
       <strong>
-        Your account as been verified
+        <span style="color:#FFFFFF;">Your account is successfully verified!</span><br>
+        <span style="color:#FFFFFF;">You can now login to your CAMAGRU account.</span>
       </strong>
     <?php } else { ?>
       <strong>
-        Account not found
+        <span style="color:#FFFFFF;">Account not found</span>
       </strong>
     <?php } ?>
     </div>

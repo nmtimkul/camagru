@@ -3,7 +3,6 @@ session_start();
 
 include '../functions/password.php';
 
-// retreive values
 $mail = $_POST['email'];
 
 $_SESSION['error'] = null;

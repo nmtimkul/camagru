@@ -1,11 +1,11 @@
 body {
   margin: auto;
-  font-family: Skia;
+  font-family: serif;
 }
 #header {
   width: 100%;
   height: 60px;
-  background-color: #13fcff;
+  background-color: #0a82f3f1;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
   margin-bottom: 15px;
@@ -15,7 +15,7 @@ body {
   height: 56px;
   width: 100px;
   line-height: 56px;
-  border: 2px solid #13fcff;
+  border: 2px solid #0a82f3f1;
   color: white;
 }
 .button:hover {
@@ -26,7 +26,7 @@ body {
   width: 100%;
   height: 28px;
   line-height: 28px;
-  background-color: #13fcff;
+  background-color: #0a82f3f1;
   text-align: center;
 }
 .comment {

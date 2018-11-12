@@ -19,13 +19,19 @@ function signup($mail, $username, $password, $host) {
           }
           $query->closeCursor();
 
-          // encrypt password
           $password = hash("whirlpool", $password);
 
           $query= $dbh->prepare("INSERT INTO users (username, mail, password, token) VALUES (:username, :mail, :password, :token)");
-          $token = uniqid(rand(), true);
+          $token = uniqid(rand(), false);
           $query->execute(array(':username' => $username, ':mail' => $mail, ':password' => $password, ':token' => $token));
           send_verification_email($mail, $username, $token, $host);
+
+          /*$to = $mail;
+          $message ="fdggdfhdhdfhfdhdhdhfhdfhdf";
+          $header = "xxxxxx";
+          $subject ="camag";
+          
+          mail($mail, $subject, $massage, $header);*/
 
           $_SESSION['signup_success'] = true;
           return (0);

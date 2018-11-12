@@ -1,7 +1,6 @@
 body {
   margin: 0;
-  /*background-color: #2112f1;*/
-  font-family: Skia;
+  font-family: serif;
   background-image: url("https://32gfgp1gm6bj459xa11b45hp-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/insta-1.gif");
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,7 +20,6 @@ label {
   margin: auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-  /*background-color: #f4f5ff;*/
   background-color: rgba(0, 0, 0, 0.010);
   padding: 5px;
   
@@ -32,7 +30,7 @@ label {
 .title {
   text-align: center;
   font-size: 45px;
-  background-color: #1af8ff;
+  background-color: #0a82f3f1;
   margin-bottom: 30px;
   color: #f4f5ff;
 }
@@ -47,8 +45,10 @@ input {
 
 input[type="submit"] {
   height: 50px;
-  background-color: #1af8ff;
-  border: 2px solid #1af8ff;
+  background-color: #0a82f3f1
+  ;
+  border: 2px solid #0a82f3f1;
+  border-radius: 5%;
   color: white;
   text-align: center;
   margin-right: auto;
@@ -59,15 +59,15 @@ input[type="submit"] {
 }
 input[type="submit"]:hover {
   background-color: white;
-  color: #13fcff;
+  color: #0a82f3f1;
   cursor: pointer;
-  -webkit-transition-duration: 0.4s; /* Safari */
+  -webkit-transition-duration: 0.4s; 
   transition-duration: 0.4s;
 }
 #header {
   width: 100%;
   height: 60px;
-  background-color: #13fcff;
+  background-color: #0a82f3f1;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
   margin-bottom: 15px;
@@ -89,7 +89,7 @@ input[type="submit"]:hover {
   height: 50px;
   width: 100%;
   text-align: center;
-  background-color: #13fcff;
+  background-color: #0a82f3f1;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
   padding: 5px;
 }
